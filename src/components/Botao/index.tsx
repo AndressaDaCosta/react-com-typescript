@@ -1,5 +1,6 @@
 import React from 'react';
+import './style.scss';
 
 export function Botao() {
-	return <button>Botão</button>;
+	return <button className='botao'>Botão</button>;
 }
